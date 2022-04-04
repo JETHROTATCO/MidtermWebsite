@@ -1,0 +1,95 @@
+body{
+    background-image: url(../backgrounds/sunset.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed; 
+
+
+}
+h1{
+    font-family:Verdana;
+    color: darkorange;
+    text-align: center;
+    text-shadow: 2px 2px orangered ;
+}
+h3
+{
+    font-family:Verdana;
+    color: darkorange;
+    text-align: center;
+    text-shadow: 2px 2px orangered ;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    border-radius: 20px;
+    
+}
+img:hover{
+    cursor: pointer;
+    border: ridge;
+    border-top-color: orangered;
+    border-bottom-color:orangered;
+    border-left-color: orangered;
+    border-right-color: orangered;
+    box-shadow: 2px 5px 8px 8px orangered;
+}
+.Me
+{
+    color: white;
+	text-shadow: 0px 6px 6px red;
+    margin-left: 150px;
+    font-size: 20px;
+}
+a:hover.Me
+{
+    cursor: pointer;
+    box-shadow: 4px 8px 10px red;
+    font-size: 18pt;
+    color: white;
+}
+.GoTop
+{
+    color: white;
+	text-shadow: 0px 6px 6px red;
+}
+a:hover.GoTop 
+{
+	color: white;
+	cursor: pointer;
+	font-size: larger;
+	box-shadow: 4px 8px 10px red;
+}
+a.header
+{
+    font-size: 22px;
+    text-align: right;
+    margin-right: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    position:relative;
+    text-shadow: 0px 6px 6px red;
+            
+}
+a:link.header
+{
+    color: rgb(4, 116, 168); 
+    text-decoration:none;
+    text-decoration: underline;
+}
+a:visited.header
+{
+    color:white; text-decoration: none;
+}
+a:active.header
+{
+    color:red; text-decoration:solid;
+}
+a:hover.header
+{
+    cursor: pointer;
+    box-shadow: 4px 8px 10px red;
+    font-size: 18pt;
+    color: white;
+}

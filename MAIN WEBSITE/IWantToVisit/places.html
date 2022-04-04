@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>I love Traveling</title>
+        <link rel="icon" href="./Images_Mapping/travel.png" type="image/x-icon">
+        <script language = "JavaScript">
+            function writeText(txt)
+            {
+                document.getElementById("desc").innerHTML=txt;
+            }
+            function dissolveText(txt)
+            {
+                document.getElementById("desc").innerHTML=txt;
+            }
+        </script>
+        <style rel ="stylesheet" type="text/css">
+            body
+            {
+                background-image: url(./Images_Mapping/Wonders-Of-The-World.jpg );
+                max-width: 100%;
+                overflow-x: hidden;
+                background-repeat: no-repeat;
+                background-size: cover; 
+                background-attachment: fixed; 
+                
+            }
+            .future
+            {
+                top: 5PX;
+                left: 10px;
+                vertical-align: top;
+                text-align: left;
+                color: cyan;
+                position:absolute;
+                float: left;
+                text-transform: uppercase;
+                font-size: 25px;
+                text-shadow: 7px 7px 9px gray;
+                border-style: ridge;
+                border-radius: 20px;
+                padding-left: 10px;
+                padding-right: 10px;
+
+            }
+            h2
+            {
+                text-align: center;
+                color: cyan;
+                font-size: 35px;
+            }
+            h5
+            {
+                text-align: center;
+                color: blue;
+            }
+            .navbar
+            {
+                width: 88%;
+                margin-left: 250px;
+                padding: 15px 0;
+                display: flex;
+                align-items: center;
+                font-size: 5px;
+
+            }
+            .navbar ul li
+            {
+                list-style: none;
+                display: inline-block;
+                margin: 0 15px;
+                margin-left: 40px;
+            }
+            .navbar ul li a
+            {
+                text-decoration: underline;
+                color: white;
+                font-size: 18px;
+            }
+            .first
+            {
+                border-style: groove;
+                border-radius: 20px;
+                border-color: yellow;
+            }
+            .second
+            {
+                border-style: groove;
+                border-radius: 20px;
+                border-color: yellow;
+                float: left;
+            }
+            .third
+            {
+                border-style: groove;
+                border-radius: 20px;
+                border-color: yellow;
+                float: right;
+            }
+            .desc
+            {
+                margin-right: 260px;
+                color: blue;
+                font-size: 18px;
+            }
+        </style>
+    </head> 
+    <body>
+        <div class="navbar" align = "right">
+            <ul>
+                <li><a href="../TATCO_PERSONALWEBSITE_ITAD.HTML">Home Page</a></li>
+                <li><a href="../Biography/TATCO_BIOGRAPHY_ITAD.HTML">About Me Page</a></li>
+                <li><a href="../Interests/TATCO_INTEREST_ITAD.html">Interest Page</a></li>
+                <li><a href="../My_Resume/TATCO_RESUME_ITAD.HTML">Resume Page</a></li>
+                <li><a href="../PhotoGallery/PhotoGallery.html">Photo Gallery Page</a></li>
+                <li><a href="../MyClipsAndBeats/Clips.html">My Clips </a></li>
+                <li><a href="../MyClipsAndBeats/beats.html">My Musics </a></li>
+            </ul>
+        </div>
+
+        <h1 class="future">My Future Visit</h1>
+        
+        <h2 >The World map</h2>
+        <h5>(Please Click the Red Dots To see The image Inside)</h5>
+        <div align = "center">
+            <img src="./Images_Mapping/world-map.gif" usemap="#worldmap" alt="Image of World Map">
+            <img src="./Images_Mapping/2830028.jpg" alt="image of wonders in the World" style="float:right;width:300px;height:300px;" class="first">
+            <img src="./Images_Mapping/papajesus.jpg" alt="image of wonders in the World" style="float:left;width:300px;height:300px;"class="first">
+            <img src="./Images_Mapping/planeta-zemlya-chudesa-sveta.jpg" alt="image of wonders in the World" style="width:300px;height:300px;"class="second">
+            <img src="./Images_Mapping/wonders.jpg" alt="image of wonders in the World" style="width:300px;height:300px;"class="third">
+        
+            <map name="worldmap">    
+                <area shape="poly" coords="226,325,218,314,224,309,201,276,192,280,186,270,194,265,193,258,230,251,265,270" href="brazil.html" alt="Image of brazil" onmouseover="writeText('Click me To See the image of My Wanted place :D');">   
+                <area shape="circle" coords="567,236,14" href="Philippines.html" alt="Image of Philippines" onmouseover="writeText('Click me To See the image of My Wanted place :D');">
+                <area shape="circle" coords="433,214,8" href="Dubai.html" alt="Image of Dubai" onmouseover="writeText('Click me To See the image of My Wanted place :D');">
+                <area shape="circle" coords="169, 204,5" href="florida.html" alt="Image of Florida USA" onmouseover="writeText('Click me To See the image of My Wanted place :D');">
+                <area shape="circle" coords="331,160,15" href="Paris.html" alt="Image of Paris France" onmouseover="writeText('Click me To See the image of My Wanted place :D');">
+                <area shape="circle" coords="354,170,12" href="Rome.html" alt="Image of Rome" onmouseover="writeText('Click me To See the image of My Wanted place :D');">
+                <area shape="poly" coords="87,156,155,156,171,171,195,159,193,173,176,190,158,191,156,202,141,201,139,209,130,201,94,194,86,183" href="USA.html" alt="Image of HavasuFalls USA" onmouseover="writeText('Click me To See the image of My Wanted place :D');">
+                
+            </map>
+            <p id="desc" class="desc"></p>
+            <br><br><br><br>
+        </div>
+    </body>
+</html>

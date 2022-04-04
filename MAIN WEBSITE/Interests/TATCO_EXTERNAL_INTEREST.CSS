@@ -1,0 +1,82 @@
+body
+        {
+            background-image: url(../backgrounds/tq132g.png);
+            font-family:Verdana, Tahoma, sans-serif;
+        }
+        h1
+        {
+            text-align: center;
+            font-family:'bookman old style', serif;
+            font-size: 3em;
+            background-color:darkturquoise;
+            color:rgb(11, 250, 11);
+            text-transform: uppercase;
+            word-spacing: 20px;
+            text-shadow: 7px 7px gray;
+        }
+        h4
+        {
+            text-align: center;
+            font-family:'bookman old style', serif;
+            font-size: 1em;
+            color:white;
+            text-transform: uppercase;
+            word-spacing: 20px;
+            text-shadow: 0px 6px 6px gray;
+        }
+        h2
+        {
+            text-align: center;
+            font-family:'bookman old style', serif;
+            font-size: 3em;
+            background-color:darkcyan;
+            color:rgb(11, 250, 11);
+            text-transform: uppercase;
+            word-spacing: 20px;
+            text-shadow: 7px 7px gray;
+        }
+        p
+        {
+            text-align: justify;
+            font-size: 16px;
+            text-indent: 65px;
+            line-height: 25px;
+            word-spacing: 8px;
+            color: darkgoldenrod;
+            
+        }
+        a
+        {
+            font-size: 15px;
+            text-align: right;
+            margin-right: 15px;
+            margin-left: 10px;
+            text-decoration: none;
+            position:relative;
+            text-shadow: 0px 6px 6px gray;
+            
+        }
+        a:link.header
+        {
+            color: rgb(4, 116, 168); text-decoration:none;
+            text-decoration: underline;
+        }
+        a:visited.header
+        {
+            color:white; text-decoration: none;
+        }
+        a:active.header
+        {
+            color:red; text-decoration:solid;
+        }
+        a:hover.header
+        {
+            cursor: pointer;
+            box-shadow: 4px 8px 10px whitesmoke;
+            font-size: 18px;
+            color: white;
+        }
+        .img
+        {
+            margin-left: 150px;
+        }
